@@ -1,0 +1,31 @@
+*{
+  caret-color: transparent;
+}
+
+.area_card {
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  width: 43vw;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--cor_primaria);
+  background-color: var(--cor_cardUsuario);
+  display: none;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+#favorito {
+  display: none;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: var(--cor_primaria);
+  padding: 5px;
+  background: white;
+  margin: 5px;
+}
